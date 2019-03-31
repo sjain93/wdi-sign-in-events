@@ -25,10 +25,10 @@
 
         <div class="modal">
             <form class="getstarted">
-                <button type="button" class="close">x</button>
-                <input type="text" name="user" id="user" placeholder="Username">
-                <input type="password" name="pass" id="pass" placeholder="Password">
-                <button type="button" class="submit">submit</button>
+                <button type="button" onclick="event.stopPropagation()" class="close">x</button>
+                <input type="text" onclick="event.stopPropagation()" name="user" id="user" placeholder="Username">
+                <input type="password" onclick="event.stopPropagation()" name="pass" id="pass" placeholder="Password">
+                <button type="button" onclick="event.stopPropagation()" class="submit">submit</button>
             </form>
         </div>
 
